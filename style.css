@@ -63,6 +63,10 @@ li a {
     color: #0161FF;
 }
 
+.col-red {
+    color: #61082B;
+}
+
 /*Backround color*/
 
 .bgcol-blue {
@@ -85,6 +89,10 @@ li a {
 
 .mg-top-xl {
     margin-top: 70px;
+}
+
+.mg-top-xxl {
+    margin-top: 150px;
 }
 
 .mg-bt-xl {
@@ -155,7 +163,6 @@ header {
 }
 
 .try-for-free {
-    display: flex;
     text-align: left;
 }
 
@@ -283,7 +290,6 @@ header {
 
 .partner-box {
     width: 60%;
-    display: flex;
 }
 
 .partner-box-info {
@@ -329,6 +335,24 @@ header {
 .card h3 {
     font-size: 25px;
     margin-bottom: 20px;
+}
+
+/*----------More partner----------*/
+
+.more-partner {}
+
+.logo-more-partner {
+    flex-basis: calc(100% / 3);
+    height: 500px;
+    border: 1px solid black;
+}
+
+
+/*----------Agency----------*/
+
+.agency {
+    height: 300px;
+    background-color: #B4D0E7;
 }
 
 /*Footer*/
