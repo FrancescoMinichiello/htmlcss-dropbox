@@ -20,6 +20,7 @@ h1 {
 
 h2 {
     font-weight: 700;
+    font-size: 38px
 }
 
 .plan * {
@@ -281,6 +282,27 @@ li a {
     padding: 10px;
     background-color: white;
     border: 1px solid black;
+}
+
+/*Operation with Dropbox*/
+
+.box-card {
+    min-height: 900px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex-basis: calc(100% / 3 - 60px / 3);
+}
+
+.card img {
+    max-width: 300px;
+}
+
+.card h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
 }
 
 /*Footer*/
