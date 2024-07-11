@@ -3,13 +3,63 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif
 }
 
 /*Generics*/
 
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
 /*Utils*/
 
+.col-black {
+    color: black;
+}
+
+.col-white {
+    color: white;
+}
+
 /*Header*/
+
+.box-header {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px 0 2px;
+}
+
+#logo {
+    height: 25px;
+    display: block;
+    position: relative;
+    bottom: 4px;
+}
+
+.header-left,
+.header-right {
+    display: flex;
+    gap: 40px;
+    font-size: 16px;
+}
+
+li a {
+    margin-right: 30px;
+    color: black;
+}
+
+.btn {
+    padding: 8px 10px;
+    background-color: #0161FF;
+    margin-left: -20px;
+}
 
 /*Main*/
 
