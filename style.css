@@ -163,7 +163,7 @@ li a {
     max-width: 800px;
 }
 
-/*Main*/
+/*Main plan*/
 
 .main-container {
     max-width: 1000px;
@@ -240,6 +240,47 @@ li a {
 
 .hr-plan {
     width: 50px;
+}
+
+/*Main partner contact*/
+
+.container-partner {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+
+.partner-img {
+    height: 500px;
+    width: 600px;
+}
+
+.partner-box {
+    width: 60%;
+    display: flex;
+}
+
+.partner-box-info {
+    flex-basis: 40%;
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
+.partner-title {
+    font-size: 25px;
+}
+
+.info-partner {
+    line-height: 25px;
+}
+
+.btn-find-partner {
+    font-size: 16px;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid black;
 }
 
 /*Footer*/
