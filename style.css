@@ -23,6 +23,11 @@ h2 {
     font-size: 38px
 }
 
+h4 {
+    border-top: 1px solid black;
+    line-height: 80px;
+}
+
 .plan * {
     font-size: 15px;
 }
@@ -268,7 +273,6 @@ header {
 .plan {
     flex-basis: calc(100% / 3 - 100px / 3);
     border: 1px solid lightgray;
-    max-height: 1000px;
 }
 
 .column-plan .plan:last-child {
@@ -385,7 +389,6 @@ header {
 .logo-more-partner {
     flex-basis: calc(100% / 3);
     height: 600px;
-    border: 1px solid black;
     position: relative;
     flex-wrap: wrap;
     flex-direction: row;
@@ -393,8 +396,8 @@ header {
 }
 
 .logo-more-partner img {
-    height: 150px;
-    width: 150px;
+    max-width: 150px;
+    filter: invert(100%)
 }
 
 .box-logo {
@@ -427,5 +430,69 @@ header {
     text-decoration: none;
 }
 
+/*FAQ*/
+
+.menu {
+    min-height: 700px;
+}
+
+.menu-faq {
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-faq h3 {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.submenu {
+    display: none;
+    width: 100%;
+}
+
+.submenu p {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.menu-faq:hover .submenu {
+    display: block;
+}
 
 /*Footer*/
+
+.ft-container {
+    min-height: 500px;
+    background-color: black;
+    justify-content: center;
+    padding: 100px;
+}
+
+.ft-card {
+    flex-basis: calc(70% / 5);
+}
+
+.ft-card * {
+    color: white;
+    line-height: 40px;
+}
+
+.ft-card h3 {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.hr-ft {
+    width: 100px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.ft-language {
+    color: #999999;
+}
