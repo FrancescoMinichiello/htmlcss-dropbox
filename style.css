@@ -174,7 +174,7 @@ header {
 }
 
 .big-container {
-    max-width: 60%;
+    max-width: 70%;
     margin: 0 auto;
 }
 
@@ -188,7 +188,7 @@ header {
 }
 
 .jumbotron {
-    min-height: 480px;
+    max-height: 480px;
 }
 
 .fa-arrow-down {
