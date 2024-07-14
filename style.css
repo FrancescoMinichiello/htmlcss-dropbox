@@ -410,6 +410,10 @@ header {
     background-color: #FFD830;
 }
 
+#img-centerbox {
+    width: 250px;
+}
+
 /*----------Agency----------*/
 
 .agency {
