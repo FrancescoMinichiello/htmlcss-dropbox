@@ -83,48 +83,6 @@ img {
     background-color: #0161FF;
 }
 
-/*Backround color box logo left*/
-
-.leftbox-bgcol-logo-top-left {
-    background-color: #A2D39B;
-}
-
-.leftbox-bgcol-logo-top-right {
-    background-color: #61082B;
-}
-
-.leftbox-bgcol-logo-bm-left {
-    background-color: #0793CE;
-}
-
-.leftbox-bgcol-logo-bm-right {
-    background-color: #FF1C1D;
-}
-
-/*Backround color box logo center*/
-
-.centerbox-bgcol-box-logo-center {
-    background-color: #F5F5F5;
-}
-
-/*Backround color box logo right*/
-
-.rightbox-bgcol-logo-top-left {
-    background-color: #D5001E;
-}
-
-.rightbox-bgcol-logo-top-right {
-    background-color: #B4D0E7;
-}
-
-.rightbox-bgcol-logo-bm-left {
-    background-color: #0E2481;
-}
-
-.rightbox-bgcol-logo-bm-right {
-    background-color: #FFD830;
-}
-
 /*Margin*/
 
 .mg-bt-sm {
@@ -395,7 +353,7 @@ header {
     align-items: center;
 }
 
-.logo-more-partner img {
+.box-logo img {
     max-width: 150px;
     filter: invert(100%)
 }
@@ -405,6 +363,51 @@ header {
     height: 50%;
     align-items: center;
     justify-content: center;
+}
+
+
+
+/*Backround color box logo left*/
+
+.leftbox-bgcol-logo-top-left {
+    background-color: #A2D39B;
+}
+
+.leftbox-bgcol-logo-top-right {
+    background-color: #61082B;
+}
+
+.leftbox-bgcol-logo-bm-left {
+    background-color: #0793CE;
+}
+
+.leftbox-bgcol-logo-bm-right {
+    background-color: #FF1C1D;
+}
+
+/*Backround color box logo center*/
+
+.centerbox-bgcol-box-logo-center {
+    padding: 50px;
+    background-color: #F5F5F5;
+}
+
+/*Backround color box logo right*/
+
+.rightbox-bgcol-logo-top-left {
+    background-color: #D5001E;
+}
+
+.rightbox-bgcol-logo-top-right {
+    background-color: #B4D0E7;
+}
+
+.rightbox-bgcol-logo-bm-left {
+    background-color: #0E2481;
+}
+
+.rightbox-bgcol-logo-bm-right {
+    background-color: #FFD830;
 }
 
 /*----------Agency----------*/
@@ -436,27 +439,18 @@ header {
     min-height: 700px;
 }
 
-.menu-faq {
-    margin-bottom: 10px;
-    align-items: center;
-    justify-content: space-between;
-}
-
 .menu-faq h3 {
     text-decoration: none;
-    color: black;
     display: block;
 }
 
 .submenu {
     display: none;
-    width: 100%;
 }
 
 .submenu p {
     padding: 10px 15px;
     text-decoration: none;
-    color: black;
     display: block;
 }
 
