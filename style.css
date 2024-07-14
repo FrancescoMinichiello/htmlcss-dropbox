@@ -8,6 +8,7 @@
 
 /*----------Generics----------*/
 
+
 ul {
     list-style-type: none;
 }
@@ -152,6 +153,10 @@ header {
     font-size: 16px;
 }
 
+.navbar-left a:hover {
+    border-bottom: 3px solid #0161FF;
+}
+
 .btn-try-now {
     position: relative;
     left: 20px;
@@ -184,6 +189,20 @@ header {
 
 .jumbotron {
     min-height: 480px;
+}
+
+.fa-arrow-down {
+    animation: bounce 0.5s ease infinite alternate;
+}
+
+@keyframes bounce {
+    from {
+        translate: 0 0;
+    }
+
+    to {
+        translate: 0 -20px;
+    }
 }
 
 /*----------Plan in the main----------*/
@@ -363,6 +382,12 @@ header {
     justify-content: center;
 }
 
+.hr-centralbox {
+    width: 100px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
 
 
 /*Backround color box logo left*/
@@ -486,9 +511,11 @@ header {
 .hr-ft {
     width: 100px;
     margin-top: 100px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .ft-language {
     color: #999999;
 }
+
+/*----------Esercizio finito---------*/
