@@ -388,6 +388,10 @@ header {
     margin-bottom: 40px;
 }
 
+.box-logo:hover {
+    border: 20px solid rgba(102, 102, 102, 0.7);
+    cursor: pointer;
+}
 
 
 /*Backround color box logo left*/
